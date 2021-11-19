@@ -1,7 +1,5 @@
-import math
-x=int(input())
-root = math.sqrt(x)
-if x == root * root:
-	print("perfect square")
+s=input()
+if s==s[::-1]:
+ print("palindrome")
 else:
-	print("not a perfect square")
+ print("Not a palindrome")")
